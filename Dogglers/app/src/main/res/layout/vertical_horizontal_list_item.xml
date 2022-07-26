@@ -59,7 +59,7 @@
 
         <TextView
             android:id="@+id/dog_age"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/dog_name"
@@ -69,7 +69,6 @@
             android:id="@+id/dog_hobbies"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toEndOf="@id/dog_age"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/dog_name"
             android:padding="8dp"
